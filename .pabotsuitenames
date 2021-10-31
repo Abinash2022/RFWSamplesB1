@@ -1,0 +1,7 @@
+datasources:fc941782ce0d644b16ca1ebe19db207690f1baad
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:4abbbb2cec94bc91ce733a1e45c0f3b3099b461f
+--suite parallelTests.AlertTS
+--suite parallelTests.FirstSample
+--suite parallelTests.HighLevelTS

@@ -1,0 +1,22 @@
+==============================================================================
+parallelTests                                                                 
+==============================================================================
+parallelTests.FirstSample                                                     
+==============================================================================
+First Testcase                                                        | PASS |
+------------------------------------------------------------------------------
+Valid LoginTest                                                       You logged into a secure area!
+×
+| PASS |
+------------------------------------------------------------------------------
+Invalid Username LoginTest                                            | PASS |
+------------------------------------------------------------------------------
+parallelTests.FirstSample                                             | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+parallelTests                                                         | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Abinash\eclipse-workspace\RFWSamplesB1\pabot_results\1\output.xml

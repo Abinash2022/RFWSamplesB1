@@ -1,0 +1,20 @@
+==============================================================================
+parallelTests                                                                 
+==============================================================================
+parallelTests.HighLevelTS                                                     
+==============================================================================
+Valid LoginTest                                                       | FAIL |
+Location should have been 'login' but was 'http://the-internet.herokuapp.com/login'.
+------------------------------------------------------------------------------
+Invalid LoginTest                                                     | FAIL |
+Location should have been 'login' but was 'http://the-internet.herokuapp.com/login'.
+------------------------------------------------------------------------------
+parallelTests.HighLevelTS                                             | FAIL |
+2 critical tests, 0 passed, 2 failed
+2 tests total, 0 passed, 2 failed
+==============================================================================
+parallelTests                                                         | FAIL |
+2 critical tests, 0 passed, 2 failed
+2 tests total, 0 passed, 2 failed
+==============================================================================
+Output:  C:\Users\Abinash\eclipse-workspace\RFWSamplesB1\pabot_results\2\output.xml

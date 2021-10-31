@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20211031 01:03:47.444" rpa="false">
+<suite id="s1" name="parallelTests" source="C:\Users\Abinash\eclipse-workspace\RFWSamplesB1\parallelTests">
+<suite id="s1-s1" name="HighLevelTS" source="C:\Users\Abinash\eclipse-workspace\RFWSamplesB1\parallelTests\HighLevelTS.robot">
+<test id="s1-s1-t1" name="Valid LoginTest">
+<kw name="Given Browser is opened with login page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20211031 01:03:47.676" level="INFO">Opening browser 'chrome' to base url 'http://the-internet.herokuapp.com/login'.</msg>
+<status status="PASS" starttime="20211031 01:03:47.676" endtime="20211031 01:03:54.481"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211031 01:03:54.481" endtime="20211031 01:03:54.608"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" starttime="20211031 01:03:54.609" endtime="20211031 01:03:54.610"></status>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<arguments>
+<arg>login</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20211031 01:03:54.775" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20211031 01:03:54.616" endtime="20211031 01:03:54.775"></status>
+</kw>
+<msg timestamp="20211031 01:03:54.776" level="FAIL">Location should have been 'login' but was 'http://the-internet.herokuapp.com/login'.</msg>
+<status status="FAIL" starttime="20211031 01:03:54.610" endtime="20211031 01:03:54.776"></status>
+</kw>
+<status status="FAIL" starttime="20211031 01:03:47.675" endtime="20211031 01:03:54.776"></status>
+</kw>
+<status status="FAIL" starttime="20211031 01:03:47.675" endtime="20211031 01:03:54.777" critical="yes">Location should have been 'login' but was 'http://the-internet.herokuapp.com/login'.</status>
+</test>
+<test id="s1-s1-t2" name="Invalid LoginTest">
+<kw name="Given Browser is opened with login page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20211031 01:03:54.779" level="INFO">Opening browser 'chrome' to base url 'http://the-internet.herokuapp.com/login'.</msg>
+<status status="PASS" starttime="20211031 01:03:54.779" endtime="20211031 01:04:00.249"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211031 01:04:00.249" endtime="20211031 01:04:00.367"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" starttime="20211031 01:04:00.368" endtime="20211031 01:04:00.370"></status>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<arguments>
+<arg>login</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20211031 01:04:00.544" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20211031 01:04:00.378" endtime="20211031 01:04:00.545"></status>
+</kw>
+<msg timestamp="20211031 01:04:00.545" level="FAIL">Location should have been 'login' but was 'http://the-internet.herokuapp.com/login'.</msg>
+<status status="FAIL" starttime="20211031 01:04:00.370" endtime="20211031 01:04:00.545"></status>
+</kw>
+<status status="FAIL" starttime="20211031 01:03:54.778" endtime="20211031 01:04:00.545"></status>
+</kw>
+<status status="FAIL" starttime="20211031 01:03:54.778" endtime="20211031 01:04:00.546" critical="yes">Location should have been 'login' but was 'http://the-internet.herokuapp.com/login'.</status>
+</test>
+<kw name="Close Browser" library="SeleniumLibrary" type="teardown">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211031 01:04:00.546" endtime="20211031 01:04:02.981"></status>
+</kw>
+<status status="FAIL" starttime="20211031 01:03:47.472" endtime="20211031 01:04:02.981"></status>
+</suite>
+<status status="FAIL" starttime="20211031 01:03:47.453" endtime="20211031 01:04:02.983"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2">Critical Tests</stat>
+<stat pass="0" fail="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" id="s1" name="parallelTests">parallelTests</stat>
+<stat pass="0" fail="2" id="s1-s1" name="HighLevelTS">parallelTests.HighLevelTS</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
