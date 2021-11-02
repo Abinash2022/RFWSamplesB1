@@ -12,7 +12,12 @@ Search Item
     
 Place Order
     [Tags]    RegTest
-    Log To Console    Place Order Test    
+    Log To Console    Place Order Test 
+    
+Checkout
+    [Tags]    SmokeTest
+    Log To Console    Checkout    
+    Log To Console    Modified on 1stNov21       
     
 Purchase Order
     Log To Console    Purchase Order Test
